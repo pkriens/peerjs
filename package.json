@@ -1,0 +1,29 @@
+{
+  "name": "peer-server",
+  "version": "0.1.0",
+  "description": "peer js server",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "",
+  "scripts": {
+    "start": "node ./node_modules/peer/bin/peerjs --port 9000 --key aQute --path /",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "peer": "peer@0.5.1"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pkriens/peerjs"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
+
