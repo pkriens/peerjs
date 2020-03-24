@@ -11,10 +11,9 @@
     "test": "node test.js"
   },
   "dependencies": {
-    "peer": "peer@0.5.1"
+    "peer": "0.5.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/pkriens/peerjs"
@@ -26,4 +25,3 @@
   ],
   "license": "MIT"
 }
-
